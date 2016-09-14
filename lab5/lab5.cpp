@@ -53,9 +53,9 @@ int main()
 	monsterFour.nose = "Vegitas";
 	monsterFour.mouth = "Wackus";
 	
-	cout << endl;
-	cout << "MonsterOne: " << monsterOne.head << ", " << monsterOne.eyes << ", ";	    // Monster One output
-	cout << monsterOne.ears << ", " << monsterOne.nose << ", " << monsterOne.mouth << endl << endl;
+	cout << endl
+		 << "MonsterOne: " << monsterOne.head << ", " << monsterOne.eyes << ", "	    // Monster One output
+		 << monsterOne.ears << ", " << monsterOne.nose << ", " << monsterOne.mouth << endl << endl;
 
 	cout << "MonsterTwo: " << monsterTwo.head << ", " << monsterTwo.eyes << ", ";	    // Monster Two output
 	cout << monsterTwo.ears << ", " << monsterTwo.nose << ", " << monsterTwo.mouth << endl << endl;
