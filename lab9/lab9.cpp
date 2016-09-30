@@ -9,7 +9,7 @@
 // declaration class TemperatureConverter
 class TemperatureConverter {
     
-        private:
+    private:
         double kelvin_;
     
     public:
