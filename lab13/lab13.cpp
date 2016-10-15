@@ -48,8 +48,6 @@ using namespace std;
     cout << "Enter a ending hour(0-24): ";
     cin >> hour2;
     
-    string a;
-    
     hour = hour1;
     
     while((hour >= hour1) && (hour < hour2))
@@ -62,12 +60,12 @@ using namespace std;
         
         if(minute < 10)   // 0 - 9 minutes
         {
-            cout << hour << ":0" << minute << a << endl;
+            cout << hour << ":0" << minute << endl;
         }
         
         else    // 10 - 59 minutes
         {
-            cout << hour << ":" << minute << a << endl;
+            cout << hour << ":" << minute << endl;
         }
        
         minute = minute + 15;
