@@ -20,6 +20,7 @@ using namespace std;
     //Create a program that will print every minute between two values.
     //First, start by programming 
     //every minute between 1:00 pm and 2:59 pm using one or more loops
+    string a;
     
     hour = 1;
     
@@ -60,12 +61,12 @@ using namespace std;
         
         if(minute < 10)   // 0 - 9 minutes
         {
-            cout << hour << ":0" << minute << endl;
+            cout << hour << ":0" << a << minute << endl;
         }
         
         else    // 10 - 59 minutes
         {
-            cout << hour << ":" << minute << endl;
+            cout << hour << ":" << a << minute << endl;
         }
        
         minute = minute + 15;
