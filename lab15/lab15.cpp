@@ -3,9 +3,8 @@
  * 4.1 Lab - Single Dimensional Arrays
  * Your menu must have 10 different items for the user to choose from. 
  * The program should allow the user to choose an item until they say they are done.
+ * Requirements: Use an array to hold how many of each item a user requests.
  */
- 
- // Requirements: Use an array to hold how many of each item a user requests.
  
 #include <iostream>
 #include <string>
@@ -13,12 +12,7 @@ using namespace std;
 
 int main()
 {
-    string userIn[99]; // able to 99 quantities for each item
-
-    int menuNum = 0;
-    int count = 0;
-
-    string menu[10]; 
+    string menu[10];    // 10 items
     menu [0] = {"Cappuccino"};
     menu [1] = {"Espresso"};
     menu [2] = {"Cafe Mocha"}; 
@@ -28,31 +22,32 @@ int main()
     menu [6] = {"Frappuccino"};                     
     menu [7] = {"Orange Juice"};                        
     menu [8] = {"Herbal tea"};                       
-    menu [9] = {"Croissant"};                    
-    
+    menu [9] = {"Croissant"}; 
+    string cart[99];    // for a user's array
+    int num = 0;    // item a user request
+    int count = 0;  // how many of each item
+
     // display 10 items in the menu
-    for(int i=0; i < 10; i++)
-        cout << i+1 << ": " << menu[i] << endl;
-
-    // let a user choose the menu number
-    cout << endl << "What would like to eat?(1-10) (Enter negative number to end the order)." << endl;
-    cin >> menuNum;
-    
-    while(menuNum > 0)
-    {
-        cout << "How many?" << endl;
-        cin >> count;
-
-        for(int i=0; i < count; i++)
-        {
-            userIn[i] = menu[menuNum-1]; // store items in the user's array
-            cout << userIn[i] << endl;  // display item based on how many items a user request
-        }
+    for(int i=0; i<10; i++)
+        cout << i << ":" << menu[i] << endl;
         
-        cout << endl << "What would like to eat?(1-10) (Enter negative number to end)." << endl;
-        cin >> menuNum;
+    // let a user choose the menu number
+    cout << endl << "Choose the item(0-9)  [Enter -1 to end the order]: ";
+    cin >> num;
+    
+    while(num >= 0)
+    {
+        cart[count] = menu[num];    // store the item a user requests into the user's array 
+        count++;    // for the next item order
+        cout << "Choose the item(0-9)  [Enter -1 to end the order]: ";
+        cin >> num;
     }
-
-
+    
+    // print all items a user ordered    
+    cout << endl << "Your have ordered " << endl;
+    
+    for(int k=0; k<count; k++)
+        cout<< cart[k] << endl;
+        
     return 0;
 }
