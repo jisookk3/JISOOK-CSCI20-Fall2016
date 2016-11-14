@@ -54,7 +54,7 @@ int main()
     // add up each row (line)
     for(int a=0; a<row; a++){
         for(int b=0; b<4; b++){
-            
+          
             arrOne[a][4] += arrOne[a][b];   // add up one row
         }
     }
