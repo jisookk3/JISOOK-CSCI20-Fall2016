@@ -1,0 +1,26 @@
+
+ === Checkbook Transaction === 
+__________________________________________
+  Date|     Item|         Payee| Amount($)
+__________________________________________
+   7/7|  deposit|              |   -300.00
+   7/8|      416|    Albertsons|     15.85
+   7/9|      417|  Checker Auto|     19.95
+  7/10|      418|  Super Target|      47.5
+  7/15|  deposit|              |   -300.00
+  7/20|      419|    Albertsons|     35.62
+   8/1|  deposit|              |   -300.00
+  12/5|      420|    Home Depot|     47.89
+ 12/10|      421|  Super Target|     88.99
+
+[Balance]: $644.20
+
+
+ === Each payee for checks === 
+_______________________________________
+         Payee|# of payments|  Total($)
+_______________________________________
+    Albertsons|            2|     51.47
+  Checker Auto|            1|     19.95
+  Super Target|            2|    136.49
+    Home Depot|            1|     47.89
