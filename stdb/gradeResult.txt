@@ -1,0 +1,31 @@
+
+
+   [ Student Grade Result ] 
+ _________________________________________________
+ No.| Name              | ID     | Total  | Grade
+ _________________________________________________
+ 1  | Tom Hanks         | 3006   | 92.70  | A 
+ 2  | Brad Pitt         | 3002   | 92.10  | A 
+ 3  | Jisook Kim        | 3003   | 91.60  | A 
+ 4  | Sandra Bullock    | 3200   | 91.20  | A 
+ 5  | Anne Hathaway     | 3023   | 90.70  | A 
+ 6  | Matt Damon        | 3010   | 90.30  | A 
+ 7  | Bruce Willis      | 3053   | 89.70  | B 
+ 8  | Leonardo DiCaprio | 3021   | 85.70  | B 
+ 9  | Kate Winslet      | 3009   | 84.70  | B 
+ 10 | Julia Roberts     | 3011   | 83.70  | B 
+ 11 | Tom Cruise        | 3013   | 81.30  | B 
+ 12 | April Brown       | 3001   | 80.80  | B 
+ 13 | Anthony Hopkins   | 3020   | 79.20  | C 
+ 14 | Rachel McAdams    | 3005   | 76.50  | C 
+ 15 | Dustin Hoffman    | 3031   | 75.60  | C 
+ 16 | Emma Watson       | 3007   | 73.80  | C 
+ 17 | Jennifer Lawrence | 3008   | 72.90  | C 
+ 18 | Natalie Portman   | 3004   | 68.10  | D 
+ 19 | Meryl Streep      | 3129   | 65.50  | D 
+ 20 | Johnny Depp       | 3178   | 58.70  | F 
+ _______________________________________________
+
+ Total: 20 students
+ Grade Average: 81.24
+

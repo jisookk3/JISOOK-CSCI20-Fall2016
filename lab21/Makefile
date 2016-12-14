@@ -14,6 +14,7 @@
 # In order to to test that your program works, in the terminal type: ./lab21exe
 
 # to remove .o files, type: make clean
+# After create exe, type:	./lab21exe
 
 all: lab21exe
 	

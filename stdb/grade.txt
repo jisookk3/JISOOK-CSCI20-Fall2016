@@ -1,0 +1,20 @@
+Rachel McAdams 3005 87 82 72 77
+Jisook Kim 3003 90 95 90 93
+Tom Cruise 3013 87 85 78 83
+Brad Pitt 3002 99 86 94 90
+Tom Hanks 3006 95 90 94 91
+Matt Damon 3010 89 88 92 89
+April Brown 3001 90 80 78 84
+Jennifer Lawrence 3008 89 70 72 70
+Julia Roberts 3011 89 75 84 89 87
+Anne Hathaway 3023 87 90 92 90
+Emma Watson 3007 82 72 70 81
+Natalie Portman 3004 72 62 69 70
+Leonardo DiCaprio 3021 92 82 85 88
+Johnny Depp 3178 60 56 59 60
+Bruce Willis 3053 87 91 88 94
+Anthony Hopkins 3020 81 78 79 80
+Dustin Hoffman 3031 79 74 71 87
+Kate Winslet 3009 82 71 89 89
+Meryl Streep 3129 72 69 63 65
+Sandra Bullock 3200 98 89 90 93
